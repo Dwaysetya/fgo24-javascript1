@@ -11,11 +11,11 @@ const data1 = [
         string: [
           0,
           {
-            name: "hello",
+            value: "hello",
           },
         ],
       },
     ],
   ],
 ];
-console.log(data1[0][1][3].string[1].name);
+console.log(data1[0][1][3].string[1].value);
